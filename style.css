@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-style: italic;
+    color: rgb(35, 141, 35);
+}
+
+.container {
+    max-width: 1283px;
+    margin: 0% auto;
+    border: solid 2px red;
+    background: rgba(251, 253, 226, 0.911);
+}
+
+.name {
+    width: 70%;
+    text-align: center;
+    float: right;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 100px;
+}
+
+li {
+    list-style: none;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+article {
+    margin: 2% 6%;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-left: 77px;
+    margin-top: 20px;
+}
+
+.ability {
+    width: 50%;
+    display: flex;
+    margin: 0% auto;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 30px;
+}
+
+.education p,
+li {
+    margin-left: 70px;
+}
+
+.education ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background: rgba(251, 253, 226, 0.911);
+}
+
+.logo {
+    border-radius: 50%;
+}
