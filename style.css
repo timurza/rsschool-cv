@@ -6,13 +6,12 @@
 body {
     font-style: italic;
     color: rgb(35, 141, 35);
-}
-
-.container {
     max-width: 1283px;
     margin: 0% auto;
-    border: solid 2px red;
     background: rgba(251, 253, 226, 0.911);
+}
+header {
+    display: flex;
 }
 
 .name {
@@ -43,7 +42,18 @@ p {
     margin-top: 20px;
     font-size: 30px;
 }
+a{
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(35, 141, 35);
+    transition: 0.3s;
+   
+}
+a:hover{
+    color: rgb(24, 92, 24);
 
+}
 h3 {
     font-size: 50px;
     margin-left: 77px;
@@ -74,6 +84,8 @@ li {
 footer {
     text-align: center;
     background: rgba(251, 253, 226, 0.911);
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo {
